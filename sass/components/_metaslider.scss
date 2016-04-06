@@ -1,0 +1,50 @@
+//metaslider styles
+.metaslider {
+  margin: 0 auto;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+ .caption-wrap {
+    position: relative !important;
+    color: red !important;
+    background: none !important;
+    text-align: center;
+    font-size: 14pt;
+    padding: 5px;
+   opacity: 1 !important;
+  }
+
+  .flex-control-paging li a {
+    background-color: #e6e6e6;
+  }
+
+  .flex-control-paging li a:hover {
+    background-color: #e6e6e6;
+  }
+
+  .flex-control-paging li a.flex-active {
+    background-color: red;
+  }
+
+  .flexslider {
+    border: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -o-border-radius: none;
+    border-radius: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+  }
+}
+
+.flex-direction-nav a {
+top: 45% !important;
+}
