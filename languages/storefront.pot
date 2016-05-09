@@ -15,21 +15,21 @@ msgstr ""
 
 #: 404.php:19
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Вибачте! Але ми нічого не змогли знайти."
 
 #: 404.php:22
 msgid ""
 "Nothing was found at this location. Try searching, or check out the links "
 "below."
-msgstr ""
+msgstr "По цьому запиту нічого не може бути знайдено. Намагайтеся шукати ще або перегляньте посилання наведені нижче."
 
 #: 404.php:45 inc/structure/template-tags.php:26
 msgid "Product Categories"
-msgstr ""
+msgstr "Категорії продуктів"
 
 #: 404.php:54
 msgid "Popular Products"
-msgstr ""
+msgstr "Популярні продукти"
 
 #: comments.php:33 comments.php:51
 msgid "Comment navigation"

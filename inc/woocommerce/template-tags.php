@@ -141,7 +141,7 @@ if ( ! function_exists( 'storefront_promoted_products' ) ) {
 
 			if ( wc_get_featured_product_ids() ) {
 
-				echo '<h2>' . esc_html__( 'Featured Products', 'storefront' ) . '</h2>';
+				echo '<h2>' . esc_html__( 'Популярні продукти', 'storefront' ) . '</h2>';
 
 				echo storefront_do_shortcode( 'featured_products', array(
 											'per_page' 	=> $per_page,
@@ -149,7 +149,7 @@ if ( ! function_exists( 'storefront_promoted_products' ) ) {
 										) );
 			} elseif ( wc_get_product_ids_on_sale() ) {
 
-				echo '<h2>' . esc_html__( 'On Sale Now', 'storefront' ) . '</h2>';
+				echo '<h2>' . esc_html__( 'Зараз у розпродажу', 'storefront' ) . '</h2>';
 
 				echo storefront_do_shortcode( 'sale_products', array(
 											'per_page' 	=> $per_page,
@@ -157,7 +157,7 @@ if ( ! function_exists( 'storefront_promoted_products' ) ) {
 										) );
 			} elseif ( $recent_fallback ) {
 
-				echo '<h2>' . esc_html__( 'New In Store', 'storefront' ) . '</h2>';
+				echo '<h2>' . esc_html__( 'Нове у магазині', 'storefront' ) . '</h2>';
 
 				echo storefront_do_shortcode( 'recent_products', array(
 											'per_page' 	=> $per_page,
